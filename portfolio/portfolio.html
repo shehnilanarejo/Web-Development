@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="portfolio.css">
+    <style>
+        img {
+            height: 250px;
+            width: 250px;
+            border: 5px solid #333;
+            border-radius: 50%;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="navbar">
+        <a href="SHEHNILA NAREJO"><strong>SHEHNILA</strong> <span
+                style="color: red; font-weight: bold;">NAREJO.</span></a>
+        <a href="#About"> About</a>
+        <a href="#icons">Skills</a>
+        <a href="#Social">Social</a>
+        <a href="#Contact">Contact</a>
+    </div>
+
+    <img src="pic.jpg">
+    <h1 style="text-align: center;"><b style="font-size: larger; color: black;">Hi, my name is Shehnila Narejo!</b></h1>
+    <h2 style="text-align: center;"><b style="font-size: larger; color: black;">I'm Front-End Developer</b></h2>
+    <button>Contact me</button>
+    <div id="about" class="About_us">
+        <h1>About</h1>
+        <p>
+            Hello! I'm Shehnila Narejo, a dedicated and passionate software engineering undergraduate at NED University.
+            My journey in the world of technology began with a curiosity for coding, and it has evolved into a deep
+            passion for software development.I have a foundation in Python, C++, HTML and CSS languages, and I'm eager
+            to expand my skill set further.Whether it's crafting elegant algorithms or building practical applications,
+            I'm committed to honing mycoding abilities.I believe that continuous learning is key to success in this
+            ever-evolving field. I'm excited to dive intonew challenges, explore innovative solutions, and collaborate
+            with fellow enthusiasts.
+            I'm open to job opportunities and my CV is available on request.</p>
+    </div>
+    <div id="icons" class="icons">
+        <h1>Skills</h1>
+        <i class="fa-brands fa-python"></i>
+        <i class="fa-brands fa-html5"></i>
+        <i class="fa-brands fa-css3-alt"></i>
+        <i class="fa-brands fa-github"></i>
+    </div>
+
+    <div id="Social" class="social">
+        <h1>Social</h1>
+        <div class="social-icons">
+            <i class="fa-brands fa-linkedin"></i>
+            <i class="fa-brands fa-github"></i>
+            <i class="fa-brands fa-x-twitter"></i>
+            <i class="fa-brands fa-medium"></i>
+        </div>
+        <div class="social-icons">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-snapchat"></i>
+        </div>
+    </div>
+
+    <form id="Contact" class="contact-form">
+        <h1>Contact</h1>
+        <div class="form-group">
+            <label for="Username">Name</label>
+            <input type="text" id="Username" placeholder="John Smith" required>
+        </div>
+        <div class="form-group">
+            <label for="Email">Email</label>
+            <input type="text" id="Email" placeholder="john@example.com" required>
+        </div>
+        <div class="form-group">
+            <label for="Message">Message</label>
+            <textarea id="Message" placeholder="Hi, how are you? Are you available to talk at 18:00 on the twelfth?"
+                required></textarea>
+        </div>
+        <button type="submit" id="sender">Send Message</button>
+    </form>
+
+
+</body>
+
+</html>
